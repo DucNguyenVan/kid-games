@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Deploy
+1. npm run build
+2. git add .
+3. git commit -m "deploy"
+4.  git subtree push --prefix frontend/kid-games/dist origin gh-pages
