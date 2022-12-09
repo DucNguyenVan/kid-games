@@ -54,7 +54,7 @@ function activeCell(idx){
 </script>
 <style lang="scss" scoped>
 $yellow-light: #f9f59e;
-$purple: #fd5eaf;
+$red: #ef3158;
 $yellow-dark: #f7d75c;
 $orange: #fdb90b;
 $orange-dark: #f2ae00;
@@ -167,8 +167,8 @@ footer {
 			position: absolute;
 			// top: -28%;
 			// left: -30%;
-			color: $purple;
-			width: 100%;
+			color: $red;
+			width: 90%;
 			opacity: 0;
 			transition: 0.1s ease;
 			height: 0;
@@ -178,9 +178,9 @@ footer {
 			// transform: rotate(-45deg);
 		}
 		&.active:after {
-			height: 100%;
+			height: 90%;
 			opacity: 0.7;
-      background-color: $purple;
+      background-color: $red;
       border-radius: 50%;
 		}
 	}
