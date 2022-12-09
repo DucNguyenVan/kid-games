@@ -218,40 +218,25 @@ footer {
 	}
 }
 
-// @media screen and (max-width: 600px) {
-// 	.main-content {
-// 		max-width: none;
-// 		margin: 0;
-// 	}
-// 	.title {
-// 		font: 50px/0.9 "Amatic SC", cursive;
-// 		padding: 20px;
-// 	}
-// 	.bingo-card {
-// 		grid-template-rows: repeat(24, auto);
-// 		grid-template-columns: auto;
-// 		margin: 1em;
-// 	}
-// 	.bingo-card__item {
-// 		justify-content: flex-start;
-// 		padding: 15px 15px 15px 40px;
-// 		text-align: left;
-// 		&:after {
-// 			content: "";
-// 			opacity: 0;
-// 		}
-// 		&:nth-child(13) {
-// 			display: none;
-// 		}
-// 	}
-// 	.bingo-card__checkbox {
-// 		display: inline;
-// 		position: absolute;
-// 		width: 20px;
-// 		height: 20px;
-// 		left: 10px;
-// 		border: 2px dashed $yellow-dark;
-// 	}
-// }
+@media screen and (max-width: 600px) {
+	.main-content {
+    width: auto;
+		max-width: none;
+		margin: 0;
+	}
+	.title {
+		font: 50px/0.9 "Amatic SC", cursive;
+		padding: 20px;
+	}
+	.bingo-card {
+		// grid-template-rows: repeat(5, 60px);
+	  grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+		margin: 1em;
+    &__item {
+      font-size: 30px;
+    }
+	}
+}
 
 </style>
