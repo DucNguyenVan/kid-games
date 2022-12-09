@@ -115,7 +115,7 @@ footer {
 
 .main-content {
 	width: 600px;
-	margin: 4em auto 0;
+	// margin: 4em auto 0;
 	overflow: hidden;
 }
 
